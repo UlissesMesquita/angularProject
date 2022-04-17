@@ -1,14 +1,13 @@
 {
   "dependencies": {
-    "json-server": "^0.17.0",
-    "nodemon": "^2.0.15"
+    "json-server": "^0.17.0"
   },
   "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "json-server --watch db.json -- port 3001"
+    "start": "json-server --watch db.json --port 3001"
   },
   "author": "Ulisses Mesquita",
   "license": "ISC",
